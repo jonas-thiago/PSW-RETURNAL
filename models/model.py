@@ -1,6 +1,6 @@
 from sqlmodel import Field, SQLModel, create_engine, Relationship
 from typing import Optional
-from datetime import date
+from datetime import date, datetime
 from decimal import Decimal
 
 class Subscription(SQLModel, table=True):
